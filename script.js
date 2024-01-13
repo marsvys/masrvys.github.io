@@ -8,6 +8,10 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "Yay, see you on the 18th!";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+   // hides the "No" button after clicking "Yes"
+   noBtn.style.display = "none";
+  // enters the "yes" button once "no" button disappears
+   yesBtn.style.margin = "0 auto";
 });
 
 noBtn.addEventListener("mouseover", () => {
